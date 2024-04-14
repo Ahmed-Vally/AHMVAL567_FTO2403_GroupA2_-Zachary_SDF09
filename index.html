@@ -8,46 +8,44 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
-                        <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
+    <footer class="bg-teal-600">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="text-center md:text-left mb-8 md:mb-0">
+                    <h1 class="text-white text-lg md:text-xl font-bold mb-4">Subscribe to our newsletter for updates.</h1>
+                    <div class="flex flex-col md:flex-row justify-center md:justify-start">
+                        <input id="email" type="text" placeholder="Email" class="rounded-l bg-white border border-r-0 border-gray-300 px-4 py-2 focus:outline-none focus:ring-teal-500 focus:border-teal-500 mb-2 md:mb-0 md:mr-2">
+                        <button class="rounded-r bg-orange-400 text-white hover:bg-teal-500 px-6 py-2.5">Subscribe</button>
+                    </div>
+                </div>
+                <div class="flex justify-center md:justify-end">
+                    <div class="text-center md:text-right">
+                        <div class="mb-4">
+                            <p class="text-white text-lg font-bold mb-2">Quick Links</p>
+                            <div class="flex flex-col">
+                                <a href="#" class="text-white hover:text-teal-300">Home</a>
+                                <a href="#" class="text-white hover:text-teal-300">Who We Are</a>
+                                <a href="#" class="text-white hover:text-teal-300">Our Philosophy</a>
                             </div>
                         </div>
                     </div>
-                    
-                    <hr class="my-6 border-[#d86943]">
-                    
-                    <div class="flex">
-                        <a href="#">
-                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
-                        </a>
+                    <div class="ml-8"> 
+                        <p class="text-white text-lg font-bold mb-2">Technologies</p>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-white hover:text-teal-300">HTML</a>
+                            <a href="#" class="text-white hover:text-teal-300">CSS</a>
+                            <a href="#" class="text-white hover:text-teal-300">JavaScript</a>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <hr class="my-6 border-[#d86943]">
+            <div class="flex justify-center">
+                <a href="#">
+                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                </a>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
